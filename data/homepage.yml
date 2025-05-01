@@ -1,0 +1,179 @@
+head:
+  title: "Andrés Echeverri portafolio"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Andrés Echeverri."
+  subtitle: "Estudiante de ingeniería"
+  description: "Andrés actualmente es estudiante del programa de ingeniería de sistemas en la universidad del Magdalena en la ciudad de Santa Marta - Colombia."
+  image:
+    x: "img/showcase/programando.gif"
+    _2x: "img/showcase/programando.gif"
+  imageMobile:
+    x: "img/showcase/programando.gif"
+    _2x: "img/showcase/programando.gif"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact Andrés"
+    URL: "mailto:mauricioecheverri007@hotmail.com"
+
+ 
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: |
+    <p class="lead">
+    <strong>Me encuentro en proceso de formación, pero ya he empezado a desarrollar habilidades sólidas en programación con lenguajes como C,Python, C++ y Java.
+    </p>
+    <p class="lead">
+    </strong> También estoy aprendiendo a crear aplicaciones web y microservicios utilizando frameworks como Spring Boot. Me considero un experto en la creación y gestión de bases de datos, lo cual me permite estructurar y manejar información de forma eficiente en distintos tipos de proyectos.
+    </p>
+    <p class="lead">
+    <strong>Además, tengo un gran interés por la inteligencia artificial, un área que me motiva a seguir estudiando y creciendo como futuro profesional de la tecnología.
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.instagram.com/mauricioe731/"
+  image:
+    x: "img/who-am-i/perfil.png"
+    _2x: "img/who-am-i/perfil.png"
+
+# experience
+experience:
+  enable: false
+  title: "Experience"
+  description: "Over 15+ years of experience working with companies from all over the world. I design & develop data science products to help businesses increase profitability and improve customer experience."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/"
+
+
+  items:
+    - title: "Director of Product Engineering & Market Development"
+      company: "Bonney Forge"
+      duration: "Jan 2017 - Aug 2018"
+
+    - title: "Manager of Sales Engineering"
+      company: "Bonney Forge"
+      duration: "Mar 2014 - Jan 2017"
+
+    - title: "Manager of Product Engineering"
+      company: "Bonney Forge"
+      duration: "Nov 2011 - Mar 2014"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Agustín Nieto Caballero"
+      year: "2018"
+      degree: "Bachiller Académico."
+
+    - university: "Universidad del Magdalena"
+      year: "2019- UP to now"
+      degree: "Ingeniería de Sistemas (En curso)"
+
+
+
+# Client & Work
+client_and_work:
+  title: "Portfolio"
+  enable: true
+  
+  enable_clients: false
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+    - title: "CapyApp"
+      description: "CappyApp fue un proyecto desarrollado y presentado en el curso de Arquitectura de Software. Su objetivo principal fue proporcionar una plataforma para que los estudiantes de Ingeniería de Sistemas pudieran acceder fácilmente a monitorías ofrecidas por otros estudiantes de la misma carrera"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "See repositorie in github"
+        URL: "https://github.com/nioclandramer/Capyartic/tree/repositorio/src/main/java/com/Capyapp"
+      image:
+        x: "img/works/CapyApp.jpeg"
+        _2x: "img/works/CapyApp.jpeg"
+      is_even: true
+
+    - title: "IA Sexist Comment Classifier"
+      description: "Este proyecto consistió en entrenar un modelo de inteligencia artificial para clasificar comentarios sexistas en textos en inglés, utilizando un conjunto de datos disponible en Kaggle."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "See documents"
+        URL: "https://colab.research.google.com/drive/1PgC8-Kj9kC_iqj5_Jh_o52YhV_Ks8fZU"
+      image:
+        x: "img/works/IA.png"
+        _2x: "img/works/IA.png"
+      is_even: false
+
+    
+
+# testimonial
+
+
+# contact
+contact:
+  enable: true
+  title: "Contacta a Andrés"
+    
+  image:
+    x: "img/who-am-i/descarga.png"
+    _2x: "img/who-am-i/descarga.png"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+    btnAction: 'mailto:mauricioecheverri007@hotmail.com'
+    
+  phone:
+    title: "Número de telefono"
+    number: "+57 3052287625"
+  email:
+    title: "Email"
+    email: '<a>mauricioecheverri007@hotmail.com</a>'
+
+  
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
